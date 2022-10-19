@@ -2,8 +2,24 @@
 layout: default
 ---
 <!-- Body -->
-{% include hero.html %}
+<section class="hero">
+  <div class="wrapper text-center">
+    <h1 rel="title">Hi, my name is Ivan!</h1>
+    <h2 rel="description">Welcome!</h2>
+    <br>
+    <br>
+    <hr>
+    <div class="buttons">
+      {% for link in site.event.hero.links %}
+        {% if link.href %}
+          <a href="{{ link.href }}">{{ link.text }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
+<!-- Other -->
 <section class="about">
   <div class="container">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
