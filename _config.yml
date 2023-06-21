@@ -58,15 +58,15 @@ event:
   info:
     sections:
       - image: "images/image1.png"
-        title: "LEARN."
+        title: "Hi."
         description: >
           H1
       - image: "images/image2.png"
-        title: "BUILD."
+        title: "HI."
         description: >
           H2
       - image: "images/image3.png"
-        title: "SHARE."
+        title: "HELLO."
         description: >
           H3
 
