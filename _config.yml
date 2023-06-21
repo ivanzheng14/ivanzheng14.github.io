@@ -58,15 +58,15 @@ event:
   # Info Sections
   info:
     sections:
-      - image: "images/image1.png"
+      - image: "images/sad-cowboy.png"
         title: "Hi."
         description: >
           H1
-      - image: "images/image2.png"
+      - image: "images/sad-cowboy.png"
         title: "HI."
         description: >
           H2
-      - image: "images/image3.png"
+      - image: "images/sad-cowboy.png"
         title: "HELLO."
         description: >
           H3
