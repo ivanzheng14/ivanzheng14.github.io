@@ -29,6 +29,7 @@
         var crn = $('#crn').val();
         var email = $('#email').val();
         checkAvailability(term, crn, email);
+        $('#alertMessage').text('Alert activated'); // Display the alert message on the HTML page
       });
 
       function checkAvailability(term, crn, email) {
