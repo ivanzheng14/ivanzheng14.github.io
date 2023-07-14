@@ -33,9 +33,9 @@ event:
     links:
       - text: "Linkedin"
         href: "https://www.linkedin.com/ivan-zheng-"
-      - text: "GitHub"
-        href: "https://www.github.com/ivanzheng14"
-      - text: "Seat Alert"
+      - text: "Login"
+        href: "login"
+      - text: "wip"
         href: "seatalert"
       
 
