@@ -2,7 +2,11 @@
 # -- Settings --
 # --------------
 
-url: "httpS://ivanzheng.me"
+url: "https://ivanzheng.me"
+
+# The ability to use custom themes.
+style:
+  theme: "original"
 
 # This will help you track who's visiting your website.
 tracking:
@@ -31,8 +35,8 @@ event:
         href: "https://www.linkedin.com/ivan-zheng-"
       - text: "GitHub"
         href: "https://www.github.com/ivanzheng14"
-      - text: "Contact me"
-        href: "mailto:ivanzheng14@hotmail.com"
+      - text: "Seat Alert"
+        href: "seatalert"
       
 
   about:

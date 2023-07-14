@@ -1,5 +1,13 @@
 <section class="hero">
-    <div class="wrapper text-center">
-      </div>
+  <div class="wrapper text-center">
+    <h1 rel="title">Hi, my name is Ivan!</h1>
+    <hr>
+    <div class="buttons">
+      {% for link in site.event.hero.links %}
+        {% if link.href %}
+          <a href="{{ link.href }}">{{ link.text }}</a>
+        {% endif %}
+      {% endfor %}
     </div>
-  </section>
+  </div>
+</section>
