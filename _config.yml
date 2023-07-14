@@ -31,12 +31,12 @@ event:
 
   hero:
     links:
-      - text: "Linkedin"
-        href: "https://www.linkedin.com/ivan-zheng-"
+      # - text: "Linkedin"
+      #   href: "https://www.linkedin.com/ivan-zheng-"
       - text: "Login"
         href: "login"
-      - text: "wip"
-        href: "seatalert"
+      # - text: "wip"
+      #   href: "seatalert"
       
 
   about:
