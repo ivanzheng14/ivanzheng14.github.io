@@ -34,7 +34,11 @@ event:
       # - text: "Linkedin"
       #   href: "https://www.linkedin.com/ivan-zheng-"
       - text: "Login"
+        href: "login2"
+      - text: "Create Account"
         href: "login"
+      - text: "Michael"
+        href: "micheal"
       # - text: "wip"
       #   href: "seatalert"
       
