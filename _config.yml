@@ -38,7 +38,7 @@ event:
       - text: "Create Account"
         href: "login"
       - text: "Michael"
-        href: "micheal"
+        href: "michael"
       # - text: "wip"
       #   href: "seatalert"
       
