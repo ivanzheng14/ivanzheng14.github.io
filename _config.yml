@@ -37,6 +37,7 @@ event:
         href: "login2"
       - text: "Create Account"
         href: "login"
+    links2:
       - text: "Michael"
         href: "michael"
       - text: "Amber"
