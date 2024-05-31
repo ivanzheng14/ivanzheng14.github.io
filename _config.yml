@@ -34,9 +34,9 @@ event:
       # - text: "Linkedin"
       #   href: "https://www.linkedin.com/ivan-zheng-"
       - text: "Login"
-        href: "login2"
-      - text: "Create Account"
         href: "login"
+      - text: "Create Account"
+        href: "createaccount"
     links2:
       - text: "Michael"
         href: "michael"
