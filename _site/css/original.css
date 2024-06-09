@@ -109,7 +109,7 @@ section {
 }
 
 .hero .buttons a:not(:last-child) {
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 /* 
@@ -235,7 +235,7 @@ section {
 
 @media(max-width: 768px) {
   .hero .buttons a {
-    border-width: 8px;
+    border-width: 1px;
     display: block;
     font-size: 20px;
     margin: 5px;
