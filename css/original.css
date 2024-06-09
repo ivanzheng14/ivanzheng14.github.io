@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  background-color: #fffff2;
+  background-color: #F0FFFF;
 }
 
 section {
@@ -52,7 +52,7 @@ section {
  */
 
 .hero {
-  background-color: #fffff2;
+  background-color: #F0FFFF;
   min-height: 110vh;
 }
 
@@ -220,7 +220,7 @@ section {
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #0047AB	;
   color: #fff;
   padding: 30px 0;
 }
