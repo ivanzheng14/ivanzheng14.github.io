@@ -1,0 +1,228 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    font-family: 'Poppins';
+    font-weight: 400;
+  }
+  
+  body {
+    background-color: #F0FFFF;
+  }
+  
+  section {
+    overflow-x:hidden;
+  }
+  
+ 
+  
+  .hero {
+    background-color: #F0FFFF;
+    min-height: 110vh;
+  }
+  
+  .hero img {
+    max-width: 400px;
+  }
+  
+  .hero hr {
+    border-top: 15px solid #0F2C34;
+    margin: 0;
+    position: relative;
+    top: -14px;
+  }
+  
+  .hero .wrapper {
+    padding-top: 30vh;
+  }
+  
+  .hero .wrapper h1 {
+    background: #fff;
+    background: rgba(255, 255, 255, .3);
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    padding: 10px 30px;
+  }
+  
+  .hero .wrapper h2 {
+    font-size: 28px;
+    font-weight: 200;
+  }
+  
+  .hero .wrapper h3 {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 35px;
+  }
+  
+  .hero .buttons {
+    margin: 40px 0;
+  }
+  
+  .hero .buttons a {
+    background: #fff;
+    border: 1px solid #0F2C34;
+    border-radius: 1px;
+    color: #0F2C34;
+    display: inline;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .hero .buttons a:hover,
+  .hero .buttons a:focus {
+    background-color: #0F2C34;
+    color: #fff;
+    transition: all 0.2s ease;
+  }
+  
+  .hero .buttons a:not(:last-child) {
+    /* margin-right: 10px; */
+  }
+  
+  /* 
+   * About Section
+   */
+  
+  .about {
+    border-width: 15px 0;
+    background-color: #fff;
+    padding: 130px 0;
+    position: relative;
+  }
+  
+  .about p {
+    color: #0F2C34;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.6em;
+    letter-spacing: -.3px;
+  }
+  
+  .about p span {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  /*
+   * Info Section
+   */
+  
+  .info {
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .info .item {
+    padding: 20px;
+  }
+  
+  .info .item h1 {
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  
+  .info .item img {
+    max-width: 220px;
+  }
+  
+  .info .item p {
+    font-size: 20px;
+  }
+  
+  /*
+   * FAQ Section
+   */
+  
+  .faq {
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .faq h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin: 30px 0;
+  }
+  
+  .faq .question h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .faq .question hr {
+    border-top: 8px solid #0F2C34;
+    margin: 20px 0;
+    width: 80px;
+  }
+  
+  .faq .question p {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  
+  .faq img {
+    margin-bottom: -2px;
+    margin-top: 40px;
+    width: 300px;
+  }
+  
+  /*
+   * Footer Section
+   */
+  
+  .footer {
+    background-color: #0047AB	;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer img {
+    max-width: 250px;
+    margin-bottom: 15px;
+  }
+  
+  .footer h3 {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+  }
+  
+  .footer h3 a {
+    color: #fff;
+  }
+  
+  @media(max-width: 768px) {
+    .hero .buttons a {
+      border-width: 1px;
+      display: block;
+      font-size: 20px;
+      margin: 5px;
+    }
+  
+    .hero img {
+      width: 250px;
+    }
+  
+    .hero hr {
+      border-top-width: 8px;
+      top: -8px;
+    }
+  }
+  
