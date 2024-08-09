@@ -2,22 +2,26 @@ html {
     scroll-behavior: smooth;
   }
   
-  * {
+
+h1 {
+    font-family: 'Poppins';
+}
+* {
     font-family: 'Poppins';
     font-weight: 400;
   }
   
-  body {
+body {
     background-color: #F0FFFF;
   }
   
-  section {
+section {
     overflow-x:hidden;
   }
   
  
   
-  .hero {
+.hero {
     background-color: #F0FFFF;
     min-height: 110vh;
   }
@@ -141,72 +145,6 @@ html {
     font-size: 20px;
   }
   
-  /*
-   * FAQ Section
-   */
-  
-  .faq {
-    background-color: #fff;
-    margin-top: 15px;
-    padding: 100px 0;
-    position: relative;
-  }
-  
-  .faq h1 {
-    font-family: 'Poppins';
-    font-weight: 700;
-    margin: 30px 0;
-  }
-  
-  .faq .question h2 {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 24px;
-  }
-  
-  .faq .question hr {
-    border-top: 8px solid #0F2C34;
-    margin: 20px 0;
-    width: 80px;
-  }
-  
-  .faq .question p {
-    font-size: 18px;
-    line-height: 1.5em;
-  }
-  
-  .faq img {
-    margin-bottom: -2px;
-    margin-top: 40px;
-    width: 300px;
-  }
-  
-  /*
-   * Footer Section
-   */
-  
-  .footer {
-    background-color: #0047AB	;
-    color: #fff;
-    padding: 30px 0;
-  }
-  
-  .footer img {
-    max-width: 250px;
-    margin-bottom: 15px;
-  }
-  
-  .footer h3 {
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 0;
-  }
-  
-  .footer h3 a {
-    color: #fff;
-  }
   
   @media(max-width: 768px) {
     .hero .buttons a {
