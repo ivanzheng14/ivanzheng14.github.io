@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    
   }
   
 
@@ -11,7 +12,9 @@ h1 {
     font-family: Poppins;
     font-weight: 400;
   }
-  
+  .pdf {
+    margin: 0px auto !important;
+    }
 body {
     background-color: #F0FFFF;
   }
